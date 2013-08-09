@@ -1,0 +1,44 @@
+"./Generated_Code/Vectors_c.obj"
+"./Generated_Code/TU2_c.obj"
+"./Generated_Code/TU1_c.obj"
+"./Generated_Code/TI3_c.obj"
+"./Generated_Code/TI1_c.obj"
+"./Generated_Code/SM1_c.obj"
+"./Generated_Code/PE_LDD_c.obj"
+"./Generated_Code/EInt9_c.obj"
+"./Generated_Code/EInt8_c.obj"
+"./Generated_Code/EInt7_c.obj"
+"./Generated_Code/EInt6_c.obj"
+"./Generated_Code/EInt5_c.obj"
+"./Generated_Code/EInt4_c.obj"
+"./Generated_Code/EInt3_c.obj"
+"./Generated_Code/EInt2_c.obj"
+"./Generated_Code/EInt1_c.obj"
+"./Generated_Code/Cpu_c.obj"
+"./Generated_Code/Bit9_c.obj"
+"./Generated_Code/Bit8_c.obj"
+"./Generated_Code/Bit7_c.obj"
+"./Generated_Code/Bit6_c.obj"
+"./Generated_Code/Bit5_c.obj"
+"./Generated_Code/Bit4_c.obj"
+"./Generated_Code/Bit3_c.obj"
+"./Generated_Code/Bit2_c.obj"
+"./Generated_Code/Bit10_c.obj"
+"./Generated_Code/Bit1_c.obj"
+"./Generated_Code/AS1_c.obj"
+"./Sources/driver_c.obj"
+"./Sources/ProcessorExpert_c.obj"
+"./Sources/Events_c.obj"
+-proc cortex-m4
+-fp soft
+-little
+-msgstyle parseable
+-g3
+-thumb
+-interworking
+-lavender model=ewl ,print=int ,scan=int ,io=raw
+"$(ProjDirPath)/Project_Settings/Linker_Files/ProcessorExpert.lcf"
+-main __thumb_startup
+-L"$(MCUToolsBaseDirEnv)/ARM_EABI_Support/ewl/lib"
+-map
+-map keep
